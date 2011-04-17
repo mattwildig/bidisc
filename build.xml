@@ -1,0 +1,28 @@
+<project name="bidisc">
+  
+  <property name="src.dir" location="src" />
+  <property name="build.dir" location="build" />
+  <property name="resources.dir" location="resources" />
+  
+  <target name="-init">
+    <mkdir dir="${build.dir}" />
+  </target>
+  
+  <target name="compile" depends="-init">
+    <javac srcdir="${src.dir}" destdir="${build.dir}" includeAntRuntime="false" source="1.4" debug="true" />
+  </target>
+  
+  <target name="run" depends="compile">
+    <java classname="uk.ac.ncl.a3707241.bidisc.viewer.DiscViewer" fork="true">
+      <classpath>
+        <pathelement location="${build.dir}" />
+        <pathelement location="${resources.dir}" />
+      </classpath>
+    </java>
+  </target>
+  
+  <target name="clean">
+    <delete dir="${build.dir}" />
+  </target>
+  
+</project>
