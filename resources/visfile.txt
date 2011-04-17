@@ -1,0 +1,9 @@
+GridIgnoreProd		uk.ac.ncl.a3707241.bidisc.visualisations.GridIgnoreDimension
+GridIgnoreSum		uk.ac.ncl.a3707241.bidisc.visualisations.ProdGridIgnoreDimension
+Mod1IgnoreSum		uk.ac.ncl.a3707241.bidisc.visualisations.ProdMod1IgnoreDimension
+Mod1IgnoreProd		uk.ac.ncl.a3707241.bidisc.visualisations.Mod1IgnoreDimension
+GridProjectOnProduct	uk.ac.ncl.a3707241.bidisc.visualisations.GridHomogeneous
+GridProjectOnSum	uk.ac.ncl.a3707241.bidisc.visualisations.ProdGridHomogeneous
+Mod1ProjectOnProduct	uk.ac.ncl.a3707241.bidisc.visualisations.Mod1Homogeneous
+Mod1ProjectOnSum	uk.ac.ncl.a3707241.bidisc.visualisations.ProdMod1Homogeneous
+Switched		uk.ac.ncl.a3707241.bidisc.visualisations.SwitchVisualisation
